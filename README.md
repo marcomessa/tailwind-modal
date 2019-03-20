@@ -1,6 +1,6 @@
 # Tailwind Modal
 ![npm (scoped)](https://img.shields.io/npm/v/@marcomessa/tailwind-modal.svg)
-Removes all spaces from a string.
+Simple modal with ready-to-use Tailwind css's markup.
 
 ## Install
 
@@ -11,7 +11,10 @@ $ npm install @marcomessa/tailwind-modal
 ## Usage
 
 ```js
-const modal = require("@marcomessa/tailwind-modal");
+import Modals from "@marcomessa/tailwind-modal";
 
-modal.init();
+...
+
+const modals = new Modals();
+modals.init();
 ```
