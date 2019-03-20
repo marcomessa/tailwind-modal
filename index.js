@@ -51,7 +51,7 @@ class Modals {
         const modal = document.getElementById(id);
 
         document.getElementsByTagName('body')[0].classList.add('overflow-hidden');
-        modal.classList.add('block');
+        modal.classList.add('is-visible');
         modal.classList.remove('hidden');
     }
 
@@ -62,16 +62,16 @@ class Modals {
     closeModal(event)
     {
         event = window.event || event;
+
         if (this === event.target) {
             document.getElementsByTagName('body')[0].classList.remove('overflow-hidden');
             if (event.target.classList.contains('modal__button') ) {
-                this.parentNode.parentNode.classList.add('hidden' );
+                this.parentNode.parentNode.classList.remove('is-visible')
             } else {
-                this.classList.remove('block');
+                this.classList.remove('is-visible');
             }
         }
     }
 }
 
-const modals = new Modals();
-export default modals;
+export default Modals;

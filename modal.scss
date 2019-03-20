@@ -19,6 +19,9 @@
     a {
         @apply text-black cursor-pointer;
     }
+    &.is-visible {
+        @apply block;
+    }
 }
 
 @screen md {
