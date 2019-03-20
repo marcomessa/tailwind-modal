@@ -33,3 +33,8 @@ import Modals from "@marcomessa/tailwind-modal";
 const modals = new Modals();
 modals.init();
 ```
+
+###### SCSS
+```scss
+@import '~@marcomessa/tailwind-modal/modal';
+```
