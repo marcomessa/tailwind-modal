@@ -28,7 +28,9 @@ class Modals {
         const modalButton = modal.getElementsByClassName('modal__button')[0];
 
         modal.addEventListener('click', this.closeModal, true);
-        modalButton.addEventListener('click', this.closeModal, true);
+
+        if (typeof modalButton !== 'undefined')
+            modalButton.addEventListener('click', this.closeModal, true);
     }
 
     /**
