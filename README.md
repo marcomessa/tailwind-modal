@@ -3,7 +3,7 @@
 
 Simple modal with ready-to-use Tailwind css's markup.
 
-This is a developer ready package which I use in my dev pipeline. It simply adds a ready-to-be-edited modal functionality. 
+This is a small package ready to be dropped in into your pipeline. It simply adds a minimal modal functionality to your project. 
 
 It uses a simple es6 class, so you have to take care about transpile (if you need it). Hope this could save a bit of time to someone!
 
