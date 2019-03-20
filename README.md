@@ -10,7 +10,7 @@ $ npm install @marcomessa/tailwind-modal
 
 ## Usage
 
-######HTML
+###### HTML
 ```html
 <a href="#" data-open="exampleModal">Click me</a>
 <div id="exampleModal" class="modal">
@@ -24,7 +24,7 @@ $ npm install @marcomessa/tailwind-modal
 </div>
 ```
 
-######JS
+###### JS
 ```js
 import Modals from "@marcomessa/tailwind-modal";
 
